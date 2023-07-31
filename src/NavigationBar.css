@@ -1,0 +1,207 @@
+/* styles.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cecaca;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 25px;
+    padding: 10px;
+  }
+  
+  .company-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #046cd4;
+  }
+  
+  .nav-links {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #413e3e;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  .nav-links button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .try-free-button {
+    background-color: #046cd4;
+    color: white;
+  }
+  
+  .buy-now-button {
+    background-color: #f3f6f8;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .background-image {
+    position: fixed;
+    top: 50px; /* Adjust this value to match the height of your navigation bar */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./bgImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:-1; /* Ensure the background is behind the other content */
+  }
+  .center-right-text {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cecaca;
+    padding: 10px;
+    height: 50px;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 25px;
+    padding: 10px;
+  }
+  
+  .company-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #046cd4;
+  }
+  
+  .nav-links {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #413e3e;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  .nav-links button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .try-free-button {
+    background-color: #046cd4;
+    color: white;
+  }
+  
+  .buy-now-button {
+    background-color: #f3f6f8;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .background-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./bgImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .center-left-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .center-left-text2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    
+  }
+  .background-image button{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
